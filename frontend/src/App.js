@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
+import Navagation from './components/Navigation'
 import './App.css'
 
 const App = () => {
