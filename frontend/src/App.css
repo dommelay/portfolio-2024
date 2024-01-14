@@ -1,14 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 .App {
   text-align: center;
+}
+body {
+  background-color: #ddddff;
+}
+h1, h2, h3 {
+  margin: 0px;
+}
+#navcontainer {
+  font-family: 'Yellowtail', cursive;
+  position: fixed;
+  top: 0;
+  background-color: #eeeeff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#navbox {
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0px 5px 25px;
+}
+.navitem {
+  margin-right: 20px;
+}
+#navnamebox {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
 }
 #homecontainer {
   display: flex;
   justify-content: center;
   padding: 30px 20px 30px 20px;
 }
-body {
-  background-color: #ddddff;
-}
-h1 {
-  margin: 0px;
-}
+
