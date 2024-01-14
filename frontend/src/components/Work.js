@@ -2,15 +2,15 @@ import React from 'react'
 import {useState} from 'react'
 
 
-const Home = () => 
+const Work = () => 
 {
     return (
         <div id='testcontainer'>
-            <h1>HOME PAGE</h1>
+            <h1>WORK PAGE</h1>
         </div>
 
     )
 
 }
 
-export default Home;
+export default Work;

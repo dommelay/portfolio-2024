@@ -5,14 +5,22 @@
 body {
   background-color: #ddddff;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 h1, h2, h3 {
   margin: 0px;
+}
+#testcontainer {
+  margin-top: 250px;
 }
 #navcontainer {
   font-family: 'Yellowtail', cursive;
   position: fixed;
   top: 0;
-  background-color: #eeeeff;
+  /* background-color: #eeeeff; */
+  border-bottom: solid black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -35,6 +43,5 @@ h1, h2, h3 {
 #homecontainer {
   display: flex;
   justify-content: center;
-  padding: 30px 20px 30px 20px;
 }
 

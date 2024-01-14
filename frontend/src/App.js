@@ -1,7 +1,11 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import {Link} from 'react-router-dom'
+import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
 import Navigation from './components/Navigation'
+import Home from './components/Home'
+import About from './components/About'
+import Work from './components/Work'
+import Contact from './components/Contact'
 import './App.css'
 
 const App = () => {
@@ -10,8 +14,19 @@ const App = () => {
   return (
 
     <div id='homecontainer'>
+    
+      <BrowserRouter>
       <Navigation/>
-      <h1>Hello World!</h1>
+        <Routes>
+
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/work' element={<Work/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+
+
+        </Routes>
+      </BrowserRouter>
     </div>
 
   )
