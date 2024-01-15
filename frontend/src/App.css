@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 .App {
   text-align: center;
 }
@@ -14,6 +15,10 @@ h1, h2, h3 {
 }
 .cursive {
   font-family: 'Yellowtail', cursive;
+}
+.normaltext {
+  font-family: 'Salsa', cursive;
+  font-weight: lighter;
 }
 #navcontainer {
   font-family: 'Yellowtail', cursive;
@@ -50,18 +55,19 @@ h1, h2, h3 {
   width: 300px;
   height: auto;
   border-radius: 50%;
-  margin-right: 60px;
+  margin: 0px 45px 0px 10px;
 }
 .homecontainer {
   display: flex;
   flex-direction: row;
-  padding: 25px;
+  padding: 0px;
   margin-top: 50px;
 }
 #homeinfobox {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* width: 520px; */
 }
 #homeicons {
   display: flex;
@@ -85,6 +91,17 @@ h1, h2, h3 {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+}
+#homebrand {
+  font-size: 15px;
+  margin: 10px 25px 0px 25px;
+  text-align: center;
+}
+#homeposition {
+  font-size: 50px;
+}
+#homename {
+  font-size: 30px;
 }
 
 /* WORK PAGE */
