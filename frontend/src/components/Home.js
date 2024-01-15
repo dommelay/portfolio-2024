@@ -16,7 +16,7 @@ const Home = () =>
                 <div id='homeinfobox'>
                     <h2>Dominique Melay</h2>
                     <h1 className='cursive'>Software & Product Engineer</h1>
-                    <h3>A Software Developer and University of Michigan graduate with a strong foundation in Neuroscience, Biomechincs, and fundamentals of Engineering. </h3>
+                    <h3>A Software Developer and University of Michigan graduate with a strong foundation in Neuroscience, Biomechanics, and fundamentals of Engineering. </h3>
                     <div id='homeiconbox'>
                         {/* <button id='resumebttn'>resume</button> */}
                         <div id='homeicons'>
