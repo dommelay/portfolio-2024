@@ -12,6 +12,9 @@ a {
 h1, h2, h3 {
   margin: 0px;
 }
+.cursive {
+  font-family: 'Yellowtail', cursive;
+}
 #navcontainer {
   font-family: 'Yellowtail', cursive;
   position: fixed;
@@ -42,14 +45,70 @@ h1, h2, h3 {
   justify-content: center;
 }
 
-/* TEST */
-#testcontainer {
-  background-color: grey;
-  width: 100%;
-  margin: 100px 50px 75px 50px;
-  height: 500px;
+/* HOME PAGE */
+#headshot {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.homecontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  margin-top: 50px;
+}
+#homeinfobox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#homeicons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.socialicon {
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+}
+#resumebttn {
+  font-size: 30px;
+  border-radius: 30%;
+  background-color: #aaaafe;
+  font-family: 'Yellowtail', cursive;
+  padding-bottom: 5px;
+  margin-right: 50px;
+}
+#homeiconbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+/* WORK PAGE */
+.pagetitle {
+  align-self: center;
 }
 .workimg {
-  width: 200px; 
+  width: 300px; 
   height: auto;
+  margin: 15px;
 }
+#workcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* TEST */
+#testcontainer {
+  /* border: solid black; */
+  width: 100%;
+  margin: 100px 50px 75px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+

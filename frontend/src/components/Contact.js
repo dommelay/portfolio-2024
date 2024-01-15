@@ -3,11 +3,14 @@ import {useState} from 'react'
 import emailjs from 'emailjs-com'
 
 
-const Contact = () => 
-{
+const Contact = () => {
+
+
     return (
         <div id='testcontainer'>
-            <h1>CONTACT PAGE</h1>
+            <div className='pagetitle'>
+                <h1>CONTACT PAGE</h1>
+            </div>
         </div>
 
     )

@@ -6,7 +6,12 @@ const About = () =>
 {
     return (
         <div id='testcontainer'>
-            <h1>ABOUT PAGE</h1>
+            <div className='pagetitle'>
+                <h1>ABOUT PAGE</h1>
+            </div>
+            <div>
+                
+            </div>
         </div>
 
     )
