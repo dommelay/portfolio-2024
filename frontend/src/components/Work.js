@@ -25,6 +25,7 @@ const handleGalleryHoverOff = () => {
            
             <div id='workcontainer'>
 
+            <div className='holdwork'>
                 <div id='weatherbox'>
                     <div onMouseEnter={handleWeatherHover} className='weatherboxtrue'>
                         <img className='workimg' src='/images/weather.jpg' alt='Weather App'/>
@@ -37,7 +38,8 @@ const handleGalleryHoverOff = () => {
             </>
                 : <></> }
                 </div>
-
+            </div>
+            
                 <div id='artbox'>
                     <div onMouseEnter={handleGalleryHover} className='artboxtrue'>
                         <img className='workimg' src='/images/gallery.jpg' alt='Gallery'></img>
