@@ -117,13 +117,13 @@ h1, h2, h3 {
 #workcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
-#weatherbox {
+#weatherbox, #artbox {
   position: relative;
 }
-.workboxtrue {
+.weatherboxtrue, .artboxtrue {
   position: relative;
   border: solid black;
   width: 300px;
