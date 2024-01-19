@@ -148,6 +148,25 @@ h1, h2, h3 {
   background-color: #eeeeff;
 } */
 
+/* CONTACT PAGE */
+#form {
+  display: flex;
+  flex-direction: column;
+}
+.formlabel {
+  font-size: 25px;
+  font-family: 'Yellowtail', cursive;
+}
+input {
+  width: 300px;
+  height: 30px;
+}
+#inputname {
+  margin-left: 25px;
+}
+#inputemail {
+  margin-left: 22px;
+}
 
 /* TEST */
 #testcontainer {
