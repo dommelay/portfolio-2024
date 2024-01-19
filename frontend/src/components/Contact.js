@@ -25,8 +25,13 @@ const handleSubmit = (e) => {
 }
     return (
         <div id='testcontainer'>
-           
+            <div id='contactpage'>
+                    <h1 id='contactme' className='normaltext'>Contact Me</h1>
+                    <h2 className='cursive' id='formdescription'>*for buisness inquiries only!</h2>
+                </div>
             <div id='contactcontainer'>
+    
+                <div>
                 <form id='form' onSubmit={handleSubmit}>
                     <div id='fromnamediv' className='labelinput'>
                         <label className='formlabel' htmlFor='from_name'>Name:</label>
@@ -42,6 +47,7 @@ const handleSubmit = (e) => {
                     </div>
                     <button id='submitbttn' className='cursive' type='submit'>submit</button>
                 </form>
+                </div>
             </div>
 
         </div>
