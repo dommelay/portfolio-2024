@@ -43,7 +43,7 @@ const handleGalleryHoverOff = () => {
                 : <></> }
                 </div>
                 <div className='worktechnologies'>
-                    <h1 className='normaltext technologies'>Technologies: testing testing testing v testing testing testing testing</h1>
+                    <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. JavaScript, API, REST architecture, HTML, CSS</h1>
                 </div>
             </div>
             
@@ -66,7 +66,7 @@ const handleGalleryHoverOff = () => {
                 : <></>}
                 </div>
                 <div className='worktechnologies'>
-                    <h1 className='normaltext technologies'>Technologies: testing testing testing v testing testing testing testing</h1>
+                    <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. TypeScript, API, REST architecture, HTML, CSS</h1>
                 </div>
             </div>
 
