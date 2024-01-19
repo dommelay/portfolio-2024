@@ -51,11 +51,15 @@ h1, h2, h3 {
 }
 
 /* HOME PAGE */
-#headshot {
+/* #headshot {
   width: 300px;
   height: auto;
   border-radius: 50%;
   margin: 0px 45px 0px 10px;
+} */
+#homeshot {
+  width: 300px;
+  margin-right: 35px;
 }
 .homecontainer {
   display: flex;
@@ -67,7 +71,7 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* width: 520px; */
+  /* width: 400px; */
 }
 #homeicons {
   display: flex;
@@ -98,7 +102,7 @@ h1, h2, h3 {
   text-align: center;
 }
 #homeposition {
-  font-size: 50px;
+  font-size: 45px;
 }
 #homename {
   font-size: 30px;
@@ -158,7 +162,7 @@ h1, h2, h3 {
   font-family: 'Yellowtail', cursive;
 }
 input {
-  width: 300px;
+  width: 350px;
   height: 30px;
 }
 #inputname {
@@ -167,6 +171,29 @@ input {
 #inputemail {
   margin-left: 22px;
 }
+#messagelabel {
+  margin-top: 20px;
+}
+#messagediv {
+  margin: 10px 0px 25px 0px;
+}
+#emaildiv {
+  margin: 10px 0px 0px 0px;
+}
+#inputmessage {
+  width: 500px;
+  height: 300px;
+}
+#submitbttn {
+  font-size: 25px;
+  width: 100px;
+  padding: 2px 8px 2px 6px;
+}
+#contactcontainer, #form {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* TEST */
 #testcontainer {

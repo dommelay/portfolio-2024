@@ -32,15 +32,15 @@ const handleSubmit = (e) => {
                         <label className='formlabel' htmlFor='from_name'>Name:</label>
                         <input id='inputname' type='text' name='from_name' value={formData.from_name} onChange={handleChange}></input>
                     </div>
-                    <div id='fromemaildiv' className='labelinput'>
+                    <div id='emaildiv' className='labelinput'>
                         <label className='formlabel' htmlFor='from_email'>Email:</label>
                         <input id='inputemail' type='text'name='from_email' value={formData.from_email} onChange={handleChange}></input>
                     </div>
+                        <label id='messagelabel' className='formlabel' htmlFor='message'>Message:</label>
                     <div id='messagediv' className='labelinput'>
-                        <label className='formlabel' htmlFor='message'>Message:</label>
                         <input id='inputmessage' type='text' name='message' value={formData.message} onChange={handleChange}></input>
                     </div>
-                    <button className='cursive' type='submit'>submit</button>
+                    <button id='submitbttn' className='cursive' type='submit'>submit</button>
                 </form>
             </div>
 
