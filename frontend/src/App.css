@@ -125,12 +125,12 @@ h1, h2, h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-#weatherbox, #artbox {
+#weatherbox, #artbox, #progressbox {
   position: relative;
   width: 300px;
   height: 232px;
 }
-.weatherboxtrue, .artboxtrue {
+.boxtrue {
   position: relative;
   /* border: solid black; */
   width: 300px;
@@ -150,7 +150,7 @@ h1, h2, h3 {
 .holdwork {
   background-color: #eeeeff;
   width: 375px;
-  height: 425px;
+  height: 400px;
   display: flex; 
   align-items: center;
   flex-direction: column;

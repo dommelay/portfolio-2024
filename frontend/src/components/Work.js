@@ -5,6 +5,7 @@ import {useState} from 'react'
 const Work = () => {
 const [weatherHover, setWeatherHover] = useState(false)
 const [galleryHover, setGalleryHover] = useState(false)
+const [progressHover, setProgressHover] = useState(false)
 
 const handleWeatherHover = () => {
     setWeatherHover(true)
@@ -17,6 +18,12 @@ const handleGalleryHover = () => {
 }
 const handleGalleryHoverOff = () => {
     setGalleryHover(false)
+}
+const handleProgressHover = () => {
+    setProgressHover(true)
+}
+const handleProgressOff = () => {
+    setProgressHover(false)
 }
 
 
@@ -31,7 +38,7 @@ const handleGalleryHoverOff = () => {
                     <h2 className='normaltext'></h2>
                 </div>
                 <div id='weatherbox'>
-                    <div onMouseEnter={handleWeatherHover} className='weatherboxtrue'>
+                    <div onMouseEnter={handleWeatherHover} className='boxtrue'>
                         <img className='workimg' src='/images/weather.jpg' alt='Weather App'/>
                     </div>
             { weatherHover ? 
@@ -54,7 +61,7 @@ const handleGalleryHoverOff = () => {
                 </div>
 
                 <div id='artbox'>
-                    <div onMouseEnter={handleGalleryHover} className='artboxtrue'>
+                    <div onMouseEnter={handleGalleryHover} className='boxtrue'>
                         <img className='workimg' src='/images/gallery.jpg' alt='Gallery'></img>
                     </div>
                 { galleryHover ?
@@ -67,6 +74,28 @@ const handleGalleryHoverOff = () => {
                 </div>
                 <div className='worktechnologies'>
                     <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. TypeScript, API, REST architecture, HTML, CSS</h1>
+                </div>
+            </div>
+
+            <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='normaltext worktitle'>Epoch Tribe</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
+                <div id='progressbox'>
+                    <div onMouseEnter={handleProgressHover} className='boxtrue'>
+                        <img className='workimg workprogimg' src='/images/workinprogress.png' alt='Weather App'/>
+                    </div>
+            { progressHover ? 
+            <>
+                <a href='https://www.epochtribe.com/' target='_blank'>
+                    <div onMouseLeave={handleProgressOff} className='opaque'></div>
+                </a>
+            </>
+                : <></> }
+                </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
                 </div>
             </div>
 
