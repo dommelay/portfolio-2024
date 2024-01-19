@@ -24,6 +24,7 @@ h1, h2, h3 {
   font-family: 'Yellowtail', cursive;
   position: fixed;
   top: 0;
+  z-index: 1;
   background-color: #eeeeff;
   /* border-bottom: solid black; */
   width: 100%;
@@ -126,6 +127,8 @@ h1, h2, h3 {
 }
 #weatherbox, #artbox {
   position: relative;
+  width: 300px;
+  height: 232px;
 }
 .weatherboxtrue, .artboxtrue {
   position: relative;
@@ -140,17 +143,29 @@ h1, h2, h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  /* z-index: 1; */
   object-fit: cover;
   display: block;
 }
-/* .holdwork {
-  width: 400px;
-  height: 350px;
-  display: flex;
-  justify-content: center;
+.holdwork {
   background-color: #eeeeff;
-} */
+  width: 375px;
+  height: 400px;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+.workdescription {
+  margin: 10px 0px 15px 0px;
+}
+.technologies {
+  font-size: 18px;
+}
+.worktechnologies {
+  margin: 15px 10px 0px 10px;
+  display: flex;
+  text-align: center;
+}
 
 /* CONTACT PAGE */
 #form {
@@ -206,6 +221,7 @@ input {
 #contactme {
   font-size: 45px;
 }
+
 
 
 /* TEST */

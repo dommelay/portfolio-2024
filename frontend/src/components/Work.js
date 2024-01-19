@@ -26,6 +26,10 @@ const handleGalleryHoverOff = () => {
             <div id='workcontainer'>
 
             <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='normaltext worktitle'>Weather App</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
                 <div id='weatherbox'>
                     <div onMouseEnter={handleWeatherHover} className='weatherboxtrue'>
                         <img className='workimg' src='/images/weather.jpg' alt='Weather App'/>
@@ -38,8 +42,17 @@ const handleGalleryHoverOff = () => {
             </>
                 : <></> }
                 </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: testing testing testing v testing testing testing testing</h1>
+                </div>
             </div>
             
+            <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='normaltext worktitle'>Gallery</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
+
                 <div id='artbox'>
                     <div onMouseEnter={handleGalleryHover} className='artboxtrue'>
                         <img className='workimg' src='/images/gallery.jpg' alt='Gallery'></img>
@@ -52,6 +65,10 @@ const handleGalleryHoverOff = () => {
                 </>
                 : <></>}
                 </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: testing testing testing v testing testing testing testing</h1>
+                </div>
+            </div>
 
             </div>
         </div>
