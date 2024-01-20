@@ -226,6 +226,13 @@ input {
   font-size: 45px;
 }
 
+/* ABOUT PAGE  */
+.abouttitle {
+  font-size: 40px;
+}
+.aboutdescription {
+  font-size: 17px;
+}
 
 
 /* TEST */

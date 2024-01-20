@@ -17,7 +17,9 @@ const Home = () =>
                     <h1 className='cursive' id='homeposition'>Software & Product Engineer</h1>
                     <h2 className='normaltext' id='homename'>Dominique Melay</h2>
                    
-                    <h3 className='normaltext' id='homebrand'>A Software Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. Experienced in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach; uniquely positioning me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h3>
+                    {/* <h3 className='normaltext' id='homebrand'>A Software Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. Experienced in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach; uniquely positioning me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h3> */}
+
+                    
                     {/* <div id='homeiconbox'>
                         <div id='homeicons'>
                             <a href='https://github.com/dommelay' target='_blank'>
