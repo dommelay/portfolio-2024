@@ -95,7 +95,7 @@ h1, h2, h3 {
 #homeiconbox {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #homebrand {
   font-size: 15px;
@@ -244,10 +244,10 @@ input {
   margin: 0px 0px 25px 0px;
 }
 #aboutname {
-  font-size: 50px;
+  font-size: 45px;
 }
 #aboutpage {
-  margin: 10px 5px 0px 0px;
+  margin: 5px 10px 0px 0px;
   font-size: 30px;
 }
 #backgroundbox, #integritybox, #beyondbox {
@@ -256,13 +256,34 @@ input {
   padding: 15px 25px 30px 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .medescription {
   background-color: #eeeeff;
   padding: 15px;
   margin: 10px 0px 0px 0px;
   text-align: center;
+}
+#socialbackground {
+  display: flex; 
+  width: 100%;
+}
+#homeiconbox {
+  margin-left: auto;
+}
+#umichlogo {
+  width: 160px;
+  height: 167px;
+  align-self: center;
+  margin: 0px 35px 0px 5px;
+}
+#logodescription {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 15px 10px 0px;
+}
+#logodiv {
+  display: flex;
+  justify-content: center;
 }
 
 

@@ -11,13 +11,35 @@ const About = () =>
 
                 <div id='aboutheader'>
                     <h1 className='normaltext' id='aboutpage'>About</h1>
-                    <h1 className='cursive' id='aboutname'>Dominique Melay</h1>
+                    <h1 className='normaltext' id='aboutname'>Dominique Melay</h1>
                 </div>
 
                 <div id='backgroundbox'>
-                    <h1 className='cursive abouttitle'>Background</h1>
+                    <div id='socialbackground'>
+                        <div id='background'>
+                            <h1 className='cursive abouttitle'>Background</h1>
+                        </div>
+                        <div id='homeiconbox'>
+                            <div id='homeicons'>
+                                <a href='https://github.com/dommelay' target='_blank'>
+                                    <img className='socialicon' src='/images/github.png' alt='GitHub'/>
+                                </a>
+                                <a href='https://www.linkedin.com/in/dominiquemelayclark/' target='_blank'>
+                                    <img className='socialicon' src='/images/linkedin.png' alt='Linkedin'/>
+                                </a>
+                                <a href='https://www.instagram.com/dommelay/' target='_blank'>
+                                    <img className='socialicon' src='/images/instagram.png' alt='Instagram'/>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                <div id='logodescription'>
+                    <div id='logodiv'>
+                            <img id='umichlogo' alt='University of Michigan Wolveriene' src='/images/umichlogo.png'></img>
+                    </div>
                     <div className='medescription'>
                         <h2 className='normaltext aboutdescription'>I am a Software/Product Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. With extensive experience in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach. My multifaceted background has uniquely positioned me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h2>
+                    </div>
                     </div>
                 </div>
 
