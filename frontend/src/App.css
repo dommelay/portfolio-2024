@@ -227,12 +227,44 @@ input {
 }
 
 /* ABOUT PAGE  */
+#aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .abouttitle {
   font-size: 40px;
 }
 .aboutdescription {
   font-size: 17px;
 }
+#aboutheader {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 25px 0px;
+}
+#aboutname {
+  font-size: 50px;
+}
+#aboutpage {
+  margin: 10px 5px 0px 0px;
+  font-size: 30px;
+}
+#backgroundbox, #integritybox, #beyondbox {
+  background-color: #bbbbfe;
+  margin-bottom: 30px;
+  padding: 15px 25px 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.medescription {
+  background-color: #eeeeff;
+  padding: 15px;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+}
+
 
 
 /* TEST */
