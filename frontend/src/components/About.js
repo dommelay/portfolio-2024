@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
+import {Link, BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 const About = () => 
@@ -51,7 +52,14 @@ const About = () =>
                 </div>
 
                 <div id='integritybox'>
-                    <h1 className='cursive abouttitle'>Integrity</h1>
+                    <div id='integritywork'>
+                        <h1 className='cursive abouttitle'>Integrity</h1>
+                        <div id='workbttnbox'>
+                            <Link to={'/contact'}>
+                                <button className='cursive' id='workbttn'>work with me</button>
+                            </Link>
+                        </div>
+                    </div>
                     <div className='medescription'>
                         <h2 className='normaltext aboutdescription'>As an autistic person, I take pride in my sense of integrity and high regard as it is often misunderstood as rigidity. I believe in exploring cognitive dissonance and disengaging confirmation bias as the most virtuous way to remain consistent in one's principles. In my professional and personal endeavors, I strive to foster environments centered around open communication, transparency, and collaboration. My motivation to work hard stems directly from my commitment to only perform fair and honest work.</h2>
                     </div>
