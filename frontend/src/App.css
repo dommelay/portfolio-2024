@@ -40,6 +40,9 @@ h1, h2, h3 {
 .navitem {
   margin-right: 20px;
 }
+.navitem:hover, #navname:hover {
+  text-decoration: underline;
+}
 #navnamebox {
   display: flex;
   align-items: center;
@@ -50,6 +53,7 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
 }
+
 /* TEST */
 #testcontainer {
   /* border: solid black; */
@@ -62,7 +66,7 @@ h1, h2, h3 {
 
 /* HOME PAGE */
 #homeshot {
-  width: 315px;
+  width: 350px;
 }
 #homecontainerbox {
   margin: 100px 30px 30px 30px;
@@ -77,8 +81,33 @@ h1, h2, h3 {
   font-size: 50px;
 }
 #homeheader {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
+#homemiddle {
+  display: flex;
+  flex-direction: row;
+}
+#homeimg {
+  margin: 0px 40px 0px 0px;
+}
+.homeinfobox {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.homeinfo {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.flexend {
+  align-self: flex-end;
+}
+.center {
+  align-self: center;
+  font-size: 50px;
+}
+
 #homeicons {
   display: flex;
   flex-direction: row;
@@ -213,9 +242,9 @@ h1, h2, h3 {
     width: 350px;
     height: 400px;
   }
-  #workpage {
+  /* #workpage {
     font-size: 35px;
-  }
+  } */
   #workheader {
     margin-bottom: 30px;
   }
