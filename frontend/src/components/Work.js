@@ -28,35 +28,17 @@ const handleProgressOff = () => {
 
 
     return (
-        <div id='testcontainer'>
+        <div id='workpagecontainer'>
            
-            <div id='workcontainer'>
+            <div id='workheader'>
+                <h1 className='normaltext' id='workpage'>Web Development</h1>
+            </div>   
 
-            <div className='holdwork'>
-                <div className='workdescription'>
-                    <h1 className='normaltext worktitle'>Weather App</h1>
-                    <h2 className='normaltext'></h2>
-                </div>
-                <div id='weatherbox'>
-                    <div onMouseEnter={handleWeatherHover} className='boxtrue'>
-                        <img className='workimg' src='/images/weather.jpg' alt='Weather App'/>
-                    </div>
-            { weatherHover ? 
-            <>
-                <a href='https://github.com/dommelay/WeatherApp-frontend' target='_blank'>
-                    <div onMouseLeave={handleWeatherHoverOff} className='opaque'></div>
-                </a>
-            </>
-                : <></> }
-                </div>
-                <div className='worktechnologies'>
-                    <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. JavaScript, API, REST architecture, HTML, CSS</h1>
-                </div>
-            </div>
+            <div id='workcontainer'>        
             
             <div className='holdwork'>
                 <div className='workdescription'>
-                    <h1 className='normaltext worktitle'>Gallery</h1>
+                    <h1 className='cursive worktitle'>Gallery</h1>
                     <h2 className='normaltext'></h2>
                 </div>
 
@@ -77,9 +59,9 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
-            <div className='holdwork'>
+            <div className='holdwork' id='holdworkprog'>
                 <div className='workdescription'>
-                    <h1 className='normaltext worktitle'>Epoch Tribe</h1>
+                    <h1 className='cursive worktitle'>Epoch Tribe</h1>
                     <h2 className='normaltext'></h2>
                 </div>
                 <div id='progressbox'>
@@ -96,6 +78,28 @@ const handleProgressOff = () => {
                 </div>
                 <div className='worktechnologies'>
                     <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
+                </div>
+            </div>
+
+            <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='cursive worktitle'>Weather App</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
+                <div id='weatherbox'>
+                    <div onMouseEnter={handleWeatherHover} className='boxtrue'>
+                        <img className='workimg' src='/images/weather.jpg' alt='Weather App'/>
+                    </div>
+            { weatherHover ? 
+            <>
+                <a href='https://github.com/dommelay/WeatherApp-frontend' target='_blank'>
+                    <div onMouseLeave={handleWeatherHoverOff} className='opaque'></div>
+                </a>
+            </>
+                : <></> }
+                </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. JavaScript, API, REST architecture, HTML, CSS</h1>
                 </div>
             </div>
 
