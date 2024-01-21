@@ -61,27 +61,23 @@ h1, h2, h3 {
 }
 
 /* HOME PAGE */
-/* #headshot {
-  width: 300px;
-  height: auto;
-  border-radius: 50%;
-  margin: 0px 45px 0px 10px;
-} */
 #homeshot {
-  width: 300px;
-  margin-right: 35px;
+  width: 315px;
 }
-.homecontainer {
+#homecontainerbox {
+  margin: 100px 30px 30px 30px;
   display: flex;
-  flex-direction: row;
-  padding: 0px;
-  margin-top: 50px;
-}
-#homeinfobox {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  /* width: 400px; */
+  align-items: center;
+}
+#homefooter {
+  margin: 15px 0px 0px 20px;
+}
+#hometitle {
+  font-size: 50px;
+}
+#homeheader {
+  margin-bottom: 25px;
 }
 #homeicons {
   display: flex;
@@ -106,17 +102,7 @@ h1, h2, h3 {
   flex-direction: row;
   margin-top: 10px;
 }
-#homebrand {
-  font-size: 15px;
-  margin: 10px 25px 0px 25px;
-  text-align: center;
-}
-#homeposition {
-  font-size: 45px;
-}
-#homename {
-  font-size: 30px;
-}
+
 
 /* WORK PAGE */
 .pagetitle {
@@ -131,8 +117,6 @@ h1, h2, h3 {
 #workcontainer {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around;
-  flex-wrap: wrap; */
 }
 #weatherbox, #artbox, #progressbox, .boxtrue {
   position: relative;
