@@ -8,9 +8,10 @@ const [formData, setFormData] = useState({
     from_email: '',
     message: ''
 })
-// useEffect(() => {
-//     console.log('testing')
-// })
+const [messageSent, setMessageSent] = useState(false)
+const [messageError, setMessageError] = useState(false)
+
+
 const handleChange = (e) => {
     e.preventDefault()
     setFormData({...formData, [e.target.name]: e.target.value})
@@ -19,8 +20,20 @@ const handleSubmit = (e) => {
     e.preventDefault()
     emailjs.send('service_9drkbdz', 'contact_form', formData, 'uebwbWRR7EBbkwtG5').then((response) => {
         console.log(formData)
+        setFormData({
+            from_name: '',
+            from_email: '',
+            message: ''
+        })
+        setMessageSent(true)
     }).catch((error) => {
         console.log('error')
+        setFormData({
+            from_name: '',
+            from_email: '',
+            message: ''
+        })
+        setMessageError(true)
     })
 }
     return (
@@ -28,6 +41,17 @@ const handleSubmit = (e) => {
             <div id='contactpage'>
                     <h1 id='contactme' className='normaltext'>Contact Me</h1>
                     <h2 className='cursive' id='formdescription'>*for buisness inquiries only!</h2>
+                    {messageSent ?
+                    <>
+                        <h1 className='cursive' id='messagesent'>Message Sent Successfully</h1>
+                        <h1 className='normaltext messagenext'>You can expect to hear back within three buisness days.</h1> 
+                    </>
+                    : <></>}
+                    {messageError ?
+                    <> 
+                        <h1 className='cursive' id='messagesent'>Error: Message Not Sent</h1>
+                    </>
+                    :<></>}
                 </div>
             <div id='contactcontainer'>
     

@@ -368,6 +368,14 @@ input {
 #contactme {
   font-size: 45px;
 }
+#messagesent {
+  color: red;
+  font-size: 35px;
+  margin-top: 15px;
+}
+.messagenext {
+  font-size: 20px;
+}
 @media screen and (max-width: 600px) {
   #inputmessage {
     width: 375px;
