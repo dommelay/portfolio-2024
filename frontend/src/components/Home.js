@@ -9,6 +9,7 @@ const Home = () =>
            
            <div id='homeheader'>
                 <h1 className='cursive' id='hometitle'>Software & Product Engineer</h1>
+                <h1 className='cursive' id='homename'>Dominique Melay</h1>
            </div>
 
             <div id='homemiddle'>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .App {
   text-align: center;
 }
@@ -17,7 +18,8 @@ h1, h2, h3 {
   font-family: 'Yellowtail', cursive;
 }
 .normaltext {
-  font-family: 'Salsa', cursive;
+  /* font-family: 'Salsa', cursive; */
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 #navcontainer {
@@ -78,26 +80,36 @@ h1, h2, h3 {
   margin: 15px 0px 0px 20px;
 }
 #hometitle {
-  font-size: 50px;
+  font-size: 65px;
 }
 #homeheader {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#homename {
+  align-self: flex-end;
+  margin-right: 25px;
+  font-size: 25px;
 }
 #homemiddle {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #homeimg {
   margin: 0px 40px 0px 0px;
 }
 .homeinfobox {
-  width: 375px;
+  width: 265px;
   display: flex;
   flex-direction: column;
-  padding-top: 35px;
+  padding: 20px;
+  /* background-color:	#bbbbfe; */
+  height: 350px;
 }
 .homeinfo {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 5px;
 }
 .flexend {
@@ -105,7 +117,7 @@ h1, h2, h3 {
 }
 .center {
   align-self: center;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #homeicons {
