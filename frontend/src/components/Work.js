@@ -59,29 +59,8 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
-            <div className='holdwork' id='holdworkprog'>
-                <div className='workdescription'>
-                    <h1 className='cursive worktitle'>Epoch Tribe</h1>
-                    <h2 className='normaltext'></h2>
-                </div>
-                <div id='progressbox'>
-                    <div onMouseEnter={handleProgressHover} className='boxtrue'>
-                        <img className='workimg workprogimg' src='/images/workinprogress.png' alt='Weather App'/>
-                    </div>
-            { progressHover ? 
-            <>
-                <a href='https://www.epochtribe.com/' target='_blank'>
-                    <div onMouseLeave={handleProgressOff} className='opaque'></div>
-                </a>
-            </>
-                : <></> }
-                </div>
-                <div className='worktechnologies'>
-                    <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
-                </div>
-            </div>
 
-            <div className='holdwork'>
+            <div className='holdwork' id='holdworkprog'>
                 <div className='workdescription'>
                     <h1 className='cursive worktitle'>Weather App</h1>
                     <h2 className='normaltext'></h2>
@@ -100,6 +79,28 @@ const handleProgressOff = () => {
                 </div>
                 <div className='worktechnologies'>
                     <h1 className='normaltext technologies'>Technologies: MERN - MongoDB, Express.js, React, Node.js. JavaScript, API, REST architecture, HTML, CSS</h1>
+                </div>
+            </div>
+
+            <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='cursive worktitle'>Epoch Tribe</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
+                <div id='progressbox'>
+                    <div onMouseEnter={handleProgressHover} className='boxtrue'>
+                        <img className='workimg workprogimg' src='/images/workinprogress.png' alt='Weather App'/>
+                    </div>
+            { progressHover ? 
+            <>
+                <a href='https://www.epochtribe.com/' target='_blank'>
+                    <div onMouseLeave={handleProgressOff} className='opaque'></div>
+                </a>
+            </>
+                : <></> }
+                </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
                 </div>
             </div>
 

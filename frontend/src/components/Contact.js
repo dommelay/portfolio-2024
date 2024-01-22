@@ -43,7 +43,7 @@ const handleSubmit = (e) => {
                     </div>
                         <label id='messagelabel' className='formlabel' htmlFor='message'>Message:</label>
                     <div id='messagediv' className='labelinput'>
-                        <input id='inputmessage' type='text' name='message' value={formData.message} onChange={handleChange}></input>
+                        <textarea id='inputmessage' type='text' name='message' value={formData.message} onChange={handleChange}></textarea>
                     </div>
                     <button id='submitbttn' className='cursive' type='submit'>submit</button>
                 </form>

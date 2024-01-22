@@ -277,6 +277,7 @@ h1, h2, h3 {
 #form {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 .formlabel {
   font-size: 25px;
@@ -327,6 +328,28 @@ input {
 #contactme {
   font-size: 45px;
 }
+@media screen and (max-width: 600px) {
+  #inputmessage {
+    width: 375px;
+    height: 325px;
+  }
+  input {
+    width: 300px;
+    height: 25px;
+  }
+  #inputemail {
+    margin-left: 10px;
+  }
+  #inputname {
+    margin-left: 12px;
+  }
+  .formlabel {
+    font-size: 22px;
+  }
+  #contactme {
+    font-size: 40;
+  }
+}
 
 /* ABOUT PAGE  */
 #aboutcontainer {
@@ -368,6 +391,7 @@ input {
 #socialbackground {
   display: flex; 
   width: 100%;
+  margin-bottom: 10px;
 }
 #homeiconbox, #workbttnbox {
   margin-left: auto;
@@ -401,7 +425,28 @@ input {
 .resumebttn {
   margin-left: auto;
 }
-
+@media screen and (min-width: 1000px) {
+  .medescription {
+    width: 850px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutdescription {
+    font-size: 15px;
+  }
+  #aboutname {
+    font-size: 35px;
+  }
+  #aboutpage {
+    font-size: 25px;
+  }
+  .abouttitle {
+    font-size: 30px;
+  }
+  .medescription {
+    width: 325px;
+  }
+}
 /* #integritydescritionbox {
   margin: 0px 20px 0px 10px;
 } */
