@@ -100,13 +100,13 @@ h1, h2, h3 {
   /* align-items: center; */
 }
 #homeimg {
-  margin: 0px 40px 0px 0px;
+  margin: 0px 50px 0px 0px;
 }
 .homeinfobox {
   width: 300px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  /* padding: 20px; */
   /* background-color:	#bbbbfe; */
 }
 .homeinfo {
@@ -153,7 +153,47 @@ h1, h2, h3 {
   flex-direction: row;
   margin-top: 10px;
 }
-
+#homeshotmobile {
+  display: none;
+  width: 300px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .homeinfo {
+    font-size: 25px;
+  }
+  .homeinfobox {
+    width: 250px;
+    padding: 0 20px;
+  }
+  #homeshot {
+    width: 300px;
+  }
+  #homeimg {
+    margin-right: 10px;
+  }
+  #hometitle {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #homeshot {
+    display: none;
+  }
+  #homemiddle {
+    flex-direction: column;
+    align-items: center;
+  }
+  #homeshotmobile {
+    display: block;
+  }
+  #hometitle {
+    font-size: 35px;
+  }
+  #workcalldivhome {
+    margin-top: 25px;
+  }
+}
 
 /* WORK PAGE */
 .pagetitle {

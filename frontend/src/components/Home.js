@@ -19,7 +19,13 @@ const Home = () =>
                     <h1 className='cursive homeinfo'>Web Development</h1>
                     <h1 className='cursive homeinfo flexend'>Fashion/Modeling</h1>
                 </div> */}
+
+                <img id='homeshotmobile' src='/images/FullSizeRender.jpg' alt='Dominique Melay'></img>
+                {/* <Link to={'/contact'}>
+                        <button className='cursive workbttnhome workbttn2' id='workbttn'>work with me</button>
+                </Link> */}
                 <div id='homeimg'>
+                    
                     <img id='homeshot' src='/images/homeshot.png' alt='Dominique Melay'></img>
                 </div>
                 <div id='workcalldivhome'>
@@ -32,7 +38,7 @@ const Home = () =>
                         <h1 className='normaltext homeinfo'>Content Creation</h1>
                     </div>
                     <Link to={'/contact'}>
-                        <button className='cursive workbttnhome' id='workbttn'>work with me</button>
+                        <button className='cursive workbttnhome workbttn1' id='workbttn'>work with me</button>
                     </Link>
                 </div>
             </div>
