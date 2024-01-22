@@ -16,6 +16,7 @@ h1, h2, h3 {
 }
 .cursive {
   font-family: 'Yellowtail', cursive;
+  font-weight: lighter;
 }
 .normaltext {
   /* font-family: 'Salsa', cursive; */
@@ -41,6 +42,7 @@ h1, h2, h3 {
 }
 .navitem {
   margin-right: 20px;
+  font-weight: lighter;
 }
 .navitem:hover, #navname:hover {
   text-decoration: underline;
@@ -80,17 +82,17 @@ h1, h2, h3 {
   margin: 15px 0px 0px 20px;
 }
 #hometitle {
-  font-size: 65px;
+  font-size: 60px;
 }
 #homeheader {
-  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 #homename {
   align-self: flex-end;
   margin-right: 25px;
-  font-size: 25px;
+  font-size: 20px;
 }
 #homemiddle {
   display: flex;
@@ -101,7 +103,7 @@ h1, h2, h3 {
   margin: 0px 40px 0px 0px;
 }
 .homeinfobox {
-  width: 265px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -109,15 +111,16 @@ h1, h2, h3 {
   height: 350px;
 }
 .homeinfo {
-  font-size: 30px;
-  margin-bottom: 5px;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 .flexend {
   align-self: flex-end;
 }
 .center {
   align-self: center;
-  font-size: 35px;
+  font-size: 32px;
+  font-weight: bolder;
 }
 
 #homeicons {
@@ -366,7 +369,7 @@ input {
   width: 160px;
   height: 167px;
   align-self: center;
-  margin: 0px 35px 0px 5px;
+  margin: 0px 35px 15px 5px;
 }
 #logodescription {
   display: flex;
@@ -376,6 +379,7 @@ input {
 #logodiv {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 #integritywork {
   display: flex;
@@ -386,6 +390,9 @@ input {
   font-size: 25px;
   margin-top: 10px;
   padding: 0px 8px 6px 7px;
+}
+.resumebttn {
+  margin-left: auto;
 }
 
 /* #integritydescritionbox {

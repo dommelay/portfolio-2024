@@ -15,10 +15,24 @@ const About = () =>
                     <h1 className='normaltext' id='aboutname'>Dominique Melay</h1>
                 </div>
 
+                <div id='beyondbox'>
+                    <div id='integritywork'>
+                        <h1 className='cursive abouttitle'>Background</h1>
+                        <div id='workbttnbox'>
+                            <a href='https://github.com/dommelay' target='_blank'>
+                                <button className='cursive resumebttn'id='workbttn'>Resume</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div className='medescription'>
+                        <h2 className='normaltext aboutdescription'>I am a Software/Product Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. With extensive experience in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach. My multifaceted background has uniquely positioned me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h2>
+                    </div>
+                </div>
                 <div id='backgroundbox'>
                     <div id='socialbackground'>
                         <div id='background'>
-                            <h1 className='cursive abouttitle'>Background</h1>
+                            <h1 className='cursive abouttitle'>Beyond the Code</h1>
                         </div>
                         <div id='homeiconbox'>
                             <div id='homeicons'>
@@ -34,22 +48,14 @@ const About = () =>
                             </div>
                         </div>
                     </div> 
-                <div id='logodescription'>
-                    <div id='logodiv'>
-                            <img id='umichlogo' alt='University of Michigan Wolveriene' src='/images/umichlogo.png'></img>
-                    </div>
-                    <div className='medescription'>
-                        <h2 className='normaltext aboutdescription'>I am a Software/Product Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. With extensive experience in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach. My multifaceted background has uniquely positioned me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h2>
-                    </div>
-                    </div>
-                </div>
-
-                <div id='beyondbox'>
-                    <h1 className='cursive abouttitle'>Beyond the Code</h1>
                     <div className='medescription'>
                         <h2 className='normaltext aboutdescription'>Beyond the lines of code, I find inspiration in the artistry of design and the transformative power of fashion. Many years of modeling in New York City in conjunction with my mission to accommodate my sensory needs have heavily influenced my sense of style. I see fashion as the most profound form of self-expression when done authentically - and engineering has allowed me to apply the same level of creativity to the world around me through more than my physical appearance. With my nuanced perspective on user experience, I am keen on popularizing the intersection between Engineering and Fashion with efficient and inclusive innovations.</h2>
                     </div>
+
+                  
+                 
                 </div>
+
 
                 <div id='integritybox'>
                     <div id='integritywork'>
