@@ -57,6 +57,14 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 500px) {
+  .navitem {
+    font-size: 25px;
+  }
+  #navname {
+    font-size: 18px;
+  }
+}
 
 /* TEST */
 #testcontainer {
