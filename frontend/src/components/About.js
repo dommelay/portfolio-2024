@@ -19,7 +19,7 @@ const About = () =>
                     <div id='integritywork'>
                         <h1 className='cursive abouttitle'>Background</h1>
                         <div id='workbttnbox'>
-                            <a href='https://github.com/dommelay' target='_blank'>
+                            <a href='https://drive.google.com/file/d/1NlohvOqzhwWdmip96eGqhd5MDENREogU/view?usp=sharing' target='_blank'>
                                 <button className='cursive resumebttn'id='workbttn'>Resume</button>
                             </a>
                         </div>
