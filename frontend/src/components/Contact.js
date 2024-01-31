@@ -44,7 +44,7 @@ const handleSubmit = (e) => {
                     {messageSent ?
                     <>
                         <h1 className='cursive' id='messagesent'>Message Sent Successfully</h1>
-                        <h1 className='normaltext messagenext'>You can expect to hear back within three buisness days.</h1> 
+                        <h1 className='normaltext messagenext'>You can expect to hear back within three business days.</h1> 
                     </>
                     : <></>}
                     {messageError ?
