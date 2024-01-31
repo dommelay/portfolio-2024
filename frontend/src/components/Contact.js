@@ -40,7 +40,7 @@ const handleSubmit = (e) => {
         <div id='testcontainer'>
             <div id='contactpage'>
                     <h1 id='contactme' className='normaltext'>Contact Me</h1>
-                    <h2 className='cursive' id='formdescription'>*for buisness inquiries only!</h2>
+                    <h2 className='cursive' id='formdescription'>*for business inquiries only!</h2>
                     {messageSent ?
                     <>
                         <h1 className='cursive' id='messagesent'>Message Sent Successfully</h1>
