@@ -59,6 +59,27 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
+            <div className='holdwork'>
+                <div className='workdescription'>
+                    <h1 className='cursive worktitle'>Epoch Tribe</h1>
+                    <h2 className='normaltext'></h2>
+                </div>
+                <div id='progressbox'>
+                    <div onMouseEnter={handleProgressHover} className='boxtrue'>
+                        <img className='workimg workprogimg' src='/images/ET-portfolio.png' alt='Weather App'/>
+                    </div>
+            { progressHover ? 
+            <>
+                <a href='https://www.epochtribe.com/' target='_blank'>
+                    <div onMouseLeave={handleProgressOff} className='opaque'></div>
+                </a>
+            </>
+                : <></> }
+                </div>
+                <div className='worktechnologies'>
+                    <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
+                </div>
+            </div>
 
             <div className='holdwork' id='holdworkprog'>
                 <div className='workdescription'>
@@ -82,27 +103,7 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
-            <div className='holdwork'>
-                <div className='workdescription'>
-                    <h1 className='cursive worktitle'>Epoch Tribe</h1>
-                    <h2 className='normaltext'></h2>
-                </div>
-                <div id='progressbox'>
-                    <div onMouseEnter={handleProgressHover} className='boxtrue'>
-                        <img className='workimg workprogimg' src='/images/ET-portfolio.png' alt='Weather App'/>
-                    </div>
-            { progressHover ? 
-            <>
-                <a href='https://www.epochtribe.com/' target='_blank'>
-                    <div onMouseLeave={handleProgressOff} className='opaque'></div>
-                </a>
-            </>
-                : <></> }
-                </div>
-                <div className='worktechnologies'>
-                    <h1 className='normaltext technologies'>Technologies: WordPress, PHP, GoDaddy</h1>
-                </div>
-            </div>
+           
 
             </div>
         </div>
