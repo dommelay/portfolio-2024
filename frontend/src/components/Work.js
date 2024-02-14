@@ -59,7 +59,7 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
-            <div className='holdwork'>
+            <div className='holdwork' id='holdworkprog'>
                 <div className='workdescription'>
                     <h1 className='cursive worktitle'>Epoch Tribe</h1>
                     <h2 className='normaltext'></h2>
@@ -81,7 +81,7 @@ const handleProgressOff = () => {
                 </div>
             </div>
 
-            <div className='holdwork' id='holdworkprog'>
+            <div className='holdwork'>
                 <div className='workdescription'>
                     <h1 className='cursive worktitle'>Weather App</h1>
                     <h2 className='normaltext'></h2>
