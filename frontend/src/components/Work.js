@@ -48,7 +48,7 @@ const handleProgressOff = () => {
                     </div>
                 { galleryHover ?
                 <>
-                    <a href='https://github.com/dommelay/GalleryFront2' target='_blank'>
+                    <a href='https://domsgallery.netlify.app/' target='_blank'>
                         <div onMouseLeave={handleGalleryHoverOff} className='opaque'></div>
                     </a>
                 </>
@@ -89,7 +89,7 @@ const handleProgressOff = () => {
                 </div>
                 <div id='progressbox'>
                     <div onMouseEnter={handleProgressHover} className='boxtrue'>
-                        <img className='workimg workprogimg' src='/images/workinprogress.png' alt='Weather App'/>
+                        <img className='workimg workprogimg' src='/images/ET-portfolio.png' alt='Weather App'/>
                     </div>
             { progressHover ? 
             <>
