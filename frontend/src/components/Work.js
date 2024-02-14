@@ -71,7 +71,7 @@ const handleProgressOff = () => {
                     </div>
             { weatherHover ? 
             <>
-                <a href='https://github.com/dommelay/WeatherApp-frontend' target='_blank'>
+                <a href='https://domsweatherapp.netlify.app/' target='_blank'>
                     <div onMouseLeave={handleWeatherHoverOff} className='opaque'></div>
                 </a>
             </>
