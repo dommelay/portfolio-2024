@@ -90,7 +90,7 @@ h1, h2, h3 {
   margin: 15px 0px 0px 20px;
 }
 #hometitle {
-  font-size: 60px;
+  font-size: 75px;
 }
 #homeheader {
   display: flex;
@@ -181,7 +181,7 @@ h1, h2, h3 {
     margin-right: 10px;
   }
   #hometitle {
-    font-size: 55px;
+    font-size: 65px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -196,7 +196,7 @@ h1, h2, h3 {
     display: block;
   }
   #hometitle {
-    font-size: 35px;
+    font-size: 45px;
   }
   #workcalldivhome {
     margin-top: 25px;
