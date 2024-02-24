@@ -42,9 +42,9 @@ const About = () =>
                                 <a href='https://www.linkedin.com/in/dominiquemelayclark/' target='_blank'>
                                     <img className='socialicon' src='/images/linkedin.png' alt='Linkedin'/>
                                 </a>
-                                {/* <a href='https://www.instagram.com/dommelay/' target='_blank'>
+                                <a href='https://www.instagram.com/dommelay/' target='_blank'>
                                     <img className='socialicon' src='/images/instagram.png' alt='Instagram'/>
-                                </a> */}
+                                </a>
                             </div>
                         </div>
                     </div> 
