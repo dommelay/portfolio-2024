@@ -19,14 +19,14 @@ const About = () =>
                     <div id='integritywork'>
                         <h1 className='cursive abouttitle'>Background</h1>
                         <div id='workbttnbox'>
-                            <a href='https://drive.google.com/file/d/1NlohvOqzhwWdmip96eGqhd5MDENREogU/view?usp=sharing' target='_blank'>
+                            <a href='https://drive.google.com/file/d/1SeJNv_5JSq0JEHGW1a2qfu3ljjJOWzPP/view?usp=sharing' target='_blank'>
                                 <button className='cursive resumebttn'id='workbttn'>Resume</button>
                             </a>
                         </div>
                     </div>
                     
                     <div className='medescription'>
-                        <h2 className='normaltext aboutdescription'>I am a Software/Product Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. With extensive experience in digital marketing and product design, I bring a diverse skill set that combines technical expertise with a creative and strategic approach. My multifaceted background has uniquely positioned me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h2>
+                        <h2 className='normaltext aboutdescription'>I am a Software Engineer and University of Michigan graduate with a solid foundation in Neuroscience, Biomechanics, and the fundamentals of Engineering. With extensive experience in digital marketing and UI/UX, I bring a diverse skill set that combines technical expertise with a creative and strategic approach. My multifaceted background has uniquely positioned me to tackle complex problems and deliver innovative solutions in the ever-evolving landscape of software development.</h2>
                     </div>
                 </div>
                 <div id='backgroundbox'>

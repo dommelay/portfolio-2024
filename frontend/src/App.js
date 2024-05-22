@@ -6,7 +6,9 @@ import Home from './components/Home'
 import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
+// import Home1 from './components/Home1'
 import './App.css'
+import './App1.css'
 
 const App = () => {
 
